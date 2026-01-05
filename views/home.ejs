@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - My Blog</title>
+</head>
+
+<body>
+    <header class="d-flex justify-content-center py-3">
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a href="/" class="nav-link active" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="/compose" class="nav-link">Compose</a>
+            </li>
+            <li class="nav-item">
+                <a href="/blogs" class="nav-link">Blogs</a>
+            </li>
+        </ul>
+    </header>
+    <div class="container blog">
+        <h1>Blog</h1>
+        <p style="text-align: center; font-size: 3vh;">Documenting the path from 'Hello World' to production. Here, I share the raw lessons, code snippets, and project breakdowns from my daily life as a developer. It’s not just about the code that works, but the bugs I fixed along the way. Join me as I explore new tech stacks and build in public.</p>
+    </div>
+    <%- include("./partials/footer") %>
+
+</body>
+
+</html>
